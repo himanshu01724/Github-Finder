@@ -3,6 +3,10 @@
 @tailwind utilities;
 
 
+.Stop{
+    align-items: center;
+}
+
 /* .NAV{
     left: 101px;
     z-index: 1;

@@ -21,8 +21,8 @@ function Navbar({title}) {
 
                 <div className = 'flex-1 px-2 mx-2'>
                     <div className = 'flex justify-end'>
-                        <Link className = 'btn btn-ghost btn-sm rounded-btn'>Home </Link>
-                        <Link className = 'btn btn-ghost btn-sm rounded-btn'>ABOUT </Link>
+                        <Link className = 'btn btn-ghost btn-sm rounded-btn' to = {{pathname:"/home"}}>Home </Link>
+                        <Link className = 'btn btn-ghost btn-sm rounded-btn' to = {{pathname:"/about"}}>ABOUT </Link>
                     </div>
                 </div>
         </div>
